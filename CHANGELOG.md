@@ -9,3 +9,7 @@
 ## [1.0.0] - TJul 17, 2019.
 
 *  description.
+  
+## [1.0.1] - TJul 17, 2019.
+
+*  format.

@@ -1,6 +1,6 @@
 name: notify_state
 description: State sharing management of business objects. Multiple statefulwidgets care about the same object, and an object property change notifies all concerned statefulwidgets to redraw
-version: 1.0.0
+version: 1.0.1
 author: "Fangwy <29034004@qq.com>"
 homepage: "https://github.com/fangwy/flutter_notify_state"
 
