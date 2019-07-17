@@ -1,12 +1,12 @@
 # notify_state
 
-State sharing management of business objects.
+* State sharing management of business objects.
 
 ## Using
 
-use NotifyObject with ChangeNotifier
-use StatefulWidget extends NotifyWidget
-use State extends NotifyState
+* use NotifyObject with ChangeNotifier
+* use StatefulWidget extends NotifyWidget
+* use State extends NotifyState
 
 ```dart
 class TestWidget extends NotifyWidget {
@@ -19,7 +19,7 @@ class _TestWidgetState extends NotifyState {
 }
 ```
 
-demo:
+* demo:
 
 ```dart
 import 'package:flutter/material.dart';
