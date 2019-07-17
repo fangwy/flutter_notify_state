@@ -3,7 +3,9 @@ library notify_state;
 import 'package:flutter/material.dart';
 
 class NotifyWidget extends StatefulWidget {
-  NotifyWidget({Key key, @required ChangeNotifier notifier}):this.notifier = notifier, super(key: key);
+  NotifyWidget({Key key, @required ChangeNotifier notifier})
+      : this.notifier = notifier,
+        super(key: key);
   final ChangeNotifier notifier;
   noSuchMethod(Invocation invocation) {}
 }
@@ -29,4 +31,3 @@ class NotifyState extends State {
     super.dispose();
   }
 }
-
